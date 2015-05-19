@@ -1,0 +1,423 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"temp",
+				"tremplate_name"
+			],
+			[
+				"ca",
+				"class	keyword"
+			],
+			[
+				"a",
+				"as_view"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"Htt",
+				"HttpResponseRedirect	class"
+			],
+			[
+				"se",
+				"SyntaxError	class"
+			],
+			[
+				"vot",
+				"vote"
+			],
+			[
+				"el",
+				"else	keyword"
+			],
+			[
+				"ques",
+				"question"
+			],
+			[
+				"det",
+				"detail"
+			],
+			[
+				"re",
+				"reverse	function"
+			],
+			[
+				"htt",
+				"HttpResponseRedirect	class"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"for",
+				"for	Attr"
+			],
+			[
+				"f",
+				"form	Tag"
+			],
+			[
+				"que",
+				"question_id	param"
+			],
+			[
+				"get",
+				"get_object_or_404	function"
+			],
+			[
+				"la",
+				"lastest_question_list	statement"
+			],
+			[
+				"Re",
+				"RequestContext	class"
+			],
+			[
+				"vie",
+				"views	module"
+			],
+			[
+				"quest",
+				"question_id"
+			],
+			[
+				"pa",
+				"path	module"
+			],
+			[
+				"Pu",
+				"published"
+			],
+			[
+				"choic",
+				"ChoiceInLine	class"
+			],
+			[
+				"Q",
+				"QuestionAdmin	class"
+			],
+			[
+				"fom",
+				"from	keyword"
+			],
+			[
+				"tim",
+				"timedelta	class"
+			],
+			[
+				"c",
+				"choice_text	statement"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "manage.py",
+			"settings":
+			{
+				"buffer_size": 251,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 96.0,
+		"last_filter": "syntax: dj",
+		"selected_items":
+		[
+			[
+				"syntax: dj",
+				"Set Syntax: HTML (Django)"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"ana",
+				"Anaconda: Set Python interpreter"
+			],
+			[
+				"syntax ",
+				"Set Syntax: Python"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"Anaconda: Set Python interpreter"
+			],
+			[
+				"ppet",
+				"Snippet: New Class"
+			],
+			[
+				"sni",
+				"Snippet: init"
+			],
+			[
+				"syntax",
+				"Set Syntax: Python"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"packe",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax: ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"syntax: pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 340.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"python -V"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/laurent/dev/python/tuto_sdz"
+	],
+	"file_history":
+	[
+		"/home/laurent/dev/python/pluralsight_tuto/pluralsight_tuto/urls.py",
+		"/home/laurent/dev/python/pluralsight_tuto/pluralsight_tuto/settings.py",
+		"/home/laurent/dev/python/pluralsight_tuto/main/views.py",
+		"/home/laurent/dev/python/pluralsight_tuto/main/templates/main/home.html",
+		"/home/laurent/dev/python/pluralsight_tuto/main/static/js",
+		"/home/laurent/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/laurent/dev/mysite/polls/urls.py",
+		"/home/laurent/dev/mysite/polls/templates/polls/index.html",
+		"/home/laurent/dev/mysite/polls/templates/polls/detail.html",
+		"/home/laurent/dev/mysite/polls/templates/polls/results.html",
+		"/home/laurent/dev/mysite/polls/views.py",
+		"/home/laurent/dev/mysite/polls/models.py",
+		"/home/laurent/dev/mysite/mysite/urls.py",
+		"/home/laurent/dev/mysite/polls/admin.py",
+		"/home/laurent/dev/mysite/mysite/settings.py",
+		"/home/laurent/dev/mysite/templates/admin/base_site.html",
+		"/home/laurent/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/laurent/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+		"/home/laurent/.config/sublime-text-3/Packages/Anaconda/README.md",
+		"/home/laurent/.config/sublime-text-3/Packages/User/Python.sublime-settings",
+		"/home/laurent/dev/mysite/mysite.sublime-project",
+		"/home/laurent/dev/mysite/mysite.sublime-workspace",
+		"/home/laurent/dev/test/test.py",
+		"/home/laurent/dev/test/test.sublime-project",
+		"/home/laurent/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/home/laurent/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/laurent/dev/test/test.html",
+		"/home/laurent/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/laurent/test"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"tab",
+			"tabs",
+			"comment"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "manage.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 251,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 157.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Anaconda Python Builder",
+	"project": "tuto_sdz.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 244.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
