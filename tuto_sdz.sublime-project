@@ -15,7 +15,12 @@
 			[
 				"manage.py",
 				"tuto_sdz.sublime-project",
-				"tuto_sdz.sublime-workspace"
+				"tuto_sdz.sublime-workspace",
+				"db.sqlite3"
+			],
+			"folder_exclude_patterns":
+			[
+				".git"
 			],
 			"path": "."
 		}

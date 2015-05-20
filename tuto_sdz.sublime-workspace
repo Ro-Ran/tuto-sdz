@@ -124,10 +124,10 @@
 	"buffers":
 	[
 		{
-			"file": "manage.py",
+			"file": "tuto_sdz/settings.py",
 			"settings":
 			{
-				"buffer_size": 251,
+				"buffer_size": 2644,
 				"line_ending": "Unix"
 			}
 		}
@@ -139,10 +139,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 96.0,
-		"last_filter": "syntax: dj",
+		"height": 392.0,
+		"last_filter": "packa",
 		"selected_items":
 		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
 			[
 				"syntax: dj",
 				"Set Syntax: HTML (Django)"
@@ -208,7 +212,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 575.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -230,7 +234,8 @@
 	},
 	"expanded_folders":
 	[
-		"/home/laurent/dev/python/tuto_sdz"
+		"/home/laurent/dev/python/tuto-sdz",
+		"/home/laurent/dev/python/tuto-sdz/main"
 	],
 	"file_history":
 	[
@@ -305,11 +310,11 @@
 			[
 				{
 					"buffer": 0,
-					"file": "manage.py",
+					"file": "tuto_sdz/settings.py",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 251,
+						"buffer_size": 2644,
 						"regions":
 						{
 						},
@@ -322,10 +327,12 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 162.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
