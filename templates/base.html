@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>{% block title %} Zhe Blog crétin {% endblock title %}</title>
+</head>
+<body>
+	<header>Zhe Blog Crétin</header>
+
+	<nav>
+		{% block nav %}
+			<ul>
+				<li><a href="/">Accueil</a></li>
+				<li><a href="/articles">Articles</a></li>
+				<li><a href="/contact">Contact</a></li>
+			</ul>
+		{% endblock nav %}
+	</nav>
+	<section id="content">
+		{% block content %}{% endblock content %}
+	</section>
+	<footer>&copy; Zhe Blog Crétin</footer>
+</body>
+</html>

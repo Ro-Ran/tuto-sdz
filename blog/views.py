@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse, Http404
+from datetime import datetime
 
 # Create your views here.
 def home (request):
@@ -25,12 +26,11 @@ def list_articles(request, year, month):
 	text = "Vous avez demandé les articles du {0}/{1}".format(month, year)
 	return HttpResponse(text)
 
-def what_is_django(request):
-	#Redirige l'utilisateur vers le site de django
-	return redirect("https://www.djangoproject.com")
+def date_actuelle(request):
+	return render(request, 'blog/date.html', {'date': datetime.now()})
 
-def test_redirect_home(request):
-	return redirect(home)
+def addition(request, nombre1, nombre2):
+	total = int(nombre1) + int(nombre2)
 
-def test_redirect_42(request):
-	return redirect('show_article', id_article=42)
+	#retourne nombre1, nombre2 et la somme des deux au tpl
+	return render(request, 'blog/addition.html', locals())
