@@ -6,9 +6,7 @@ from datetime import datetime
 def home (request):
 	"""Exemple de page html directement renvoyé par la vue home"""
 
-	text = """<h1>Bienvenue sur le blog tuto-sdz</h1>
-		<p>The cake is a lie...</p>"""
-	return HttpResponse(text)
+	return render (request, 'blog/home.html')
 
 def view_article(request, id_article):
 	"""Vue qui prend en paramètre une variable id_article"""

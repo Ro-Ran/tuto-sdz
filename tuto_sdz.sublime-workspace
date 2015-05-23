@@ -127,7 +127,7 @@
 			"file": "tuto_sdz/settings.py",
 			"settings":
 			{
-				"buffer_size": 2644,
+				"buffer_size": 2665,
 				"line_ending": "Unix"
 			}
 		}
@@ -139,14 +139,10 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "packa",
+		"height": 96.0,
+		"last_filter": "syntax: dj",
 		"selected_items":
 		[
-			[
-				"packa",
-				"Package Control: Install Package"
-			],
 			[
 				"syntax: dj",
 				"Set Syntax: HTML (Django)"
@@ -212,7 +208,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 449.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -234,11 +230,11 @@
 	},
 	"expanded_folders":
 	[
-		"/home/laurent/dev/python/tuto-sdz",
-		"/home/laurent/dev/python/tuto-sdz/main"
+		"/home/laurent/dev/python/tuto_sdz"
 	],
 	"file_history":
 	[
+		"/home/laurent/dev/python/tuto_sdz/tuto_sdz.sublime-project",
 		"/home/laurent/dev/python/pluralsight_tuto/pluralsight_tuto/urls.py",
 		"/home/laurent/dev/python/pluralsight_tuto/pluralsight_tuto/settings.py",
 		"/home/laurent/dev/python/pluralsight_tuto/main/views.py",
@@ -311,28 +307,28 @@
 				{
 					"buffer": 0,
 					"file": "tuto_sdz/settings.py",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2644,
+						"buffer_size": 2665,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1080,
+								1080
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage",
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 162.0,
+						"translation.x": -0.0,
+						"translation.y": 51.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
