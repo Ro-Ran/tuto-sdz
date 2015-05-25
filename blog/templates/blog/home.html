@@ -13,7 +13,7 @@
 		<div class="article">
 			<h3>{{ article.titre }} par {{ article.auteur }}</h3>
 			<p>{{ article.contenu|truncatewords_html:80 }}</p>
-			<p><a href="{% url 'view' article.id %}">Lire la suite</a></p>
+			<p><a href="{% url 'view' article.id article.slug %}">Lire la suite</a></p>
 		</div>
 	{% empty %}
 		<p>Aucun article.</p>

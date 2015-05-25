@@ -1,5 +1,5 @@
-from django.shortcuts import render, redirect
-from django.http import HttpResponse, Http404
+from django.shortcuts import render, get_object_or_404
+from django.http import HttpResponse
 from blog.models import Article, Categorie
 
 # Create your views here.
@@ -9,15 +9,13 @@ def home (request):
 	articles = Article.objects.all()
 	return render (request, 'blog/home.html', {'derniers_articles': articles})
 
-def view_article(request, id_article):
+def view_article(request, id_article, slug):
 	"""Vue qui prend en paramètre une variable id_article"""
 
-	#Si l'id est inférieur à 1, nous considerons que l'article n'existe pas
-	if int(id_article) < 1:
-		raise Http404
+	article = get_object_or_404(Article, id=id_article, slug=slug)
 
 	text = "Vous avez demandé l'article #{0} !".format(id_article)
-	return HttpResponse(text)
+	return render(request, 'blog/article.html', {'article': article})
 
 def list_articles(request, year, month):
 	""" Liste des articles d'un mois précis"""
