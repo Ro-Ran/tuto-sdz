@@ -1,12 +1,13 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse, Http404
-from datetime import datetime
+from blog.models import Article, Categorie
 
 # Create your views here.
 def home (request):
 	"""Exemple de page html directement renvoyé par la vue home"""
 
-	return render (request, 'blog/home.html')
+	articles = Article.objects.all()
+	return render (request, 'blog/home.html', {'derniers_articles': articles})
 
 def view_article(request, id_article):
 	"""Vue qui prend en paramètre une variable id_article"""
@@ -23,9 +24,6 @@ def list_articles(request, year, month):
 
 	text = "Vous avez demandé les articles du {0}/{1}".format(month, year)
 	return HttpResponse(text)
-
-def date_actuelle(request):
-	return render(request, 'blog/date.html', {'date': datetime.now()})
 
 def addition(request, nombre1, nombre2):
 	total = int(nombre1) + int(nombre2)

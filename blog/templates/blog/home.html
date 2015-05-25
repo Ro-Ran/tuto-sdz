@@ -9,5 +9,13 @@
 		Votre hote sur ce blog</p><br />
 		<img src="{% static "blog/img/lapin-cretin.jpg" %}" alt="img hote" />
 	</p>
-	<p>The cake is a lie...</p>
+	{% for article in derniers_articles %}
+		<div class="article">
+			<h3>{{ article.titre }} par {{ article.auteur }}</h3>
+			<p>{{ article.contenu|truncatewords_html:80 }}</p>
+			<p><a href="{% url 'view' article.id %}">Lire la suite</a></p>
+		</div>
+	{% empty %}
+		<p>Aucun article.</p>
+	{% endfor %}
 {% endblock content %}
